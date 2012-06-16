@@ -8,17 +8,17 @@ Require
 * NicoNico Account
 
 * ffmpeg
-** apt-getとかで入れると上手くいきません。。方法はここらへんによくまとまってます。
+apt-getとかで入れると上手くいきません。。方法はここらへんによくまとまってます。
 <https://ffmpeg.org/trac/ffmpeg/wiki/UbuntuCompilationGuide>
 
 * eyeD3
-** mp3にid3なタグをつけるライブラリです。 ffmpegでも出来ますがUTF-16で書き込みたかったので、これを使用しています。
+mp3にid3なタグをつけるライブラリです。 ffmpegでも出来ますがUTF-16で書き込みたかったので、これを使用しています。
 
 How to Use
 ----------
 1. download.phpを開いて112行目にニコニコ動画のアカウントのメールアドレスとパスワード、169行目にvideoを保存するディレクトリのパスを入れます
 2. encode.phpの35行目にも同じディレクトリのパスを入れておきます。４１行目のffmpegのオプションと46行目のオプションは自由に設定変更してください。
-3. Terminalで 'php main.php <videoid(ex:sm000001)>' と入力するとダウンロードとエンコードが行われます。
+3. Terminalで 'php main.php &gt;videoid(ex:sm000001)&lt;' と入力するとダウンロードとエンコードが行われます。
 
 Other Info
 ----------
