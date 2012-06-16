@@ -5,17 +5,16 @@ PHP script for download video file from nicovideo.jp , then call ffmpeg and add 
 
 Require
 --------
-* NicoNico Account
+#### NicoNico Account
+You must.
 
-* _ffmpeg_
-
+#### ffmpeg
 apt-getとかで入れると上手くいきません。。方法はここらへんによくまとまってます。
 <https://ffmpeg.org/trac/ffmpeg/wiki/UbuntuCompilationGuide>
 
-* _eyeD3_
-
-mp3にid3なタグをつけるライブラリです。 ffmpegでも出来ますがUTF-16で書き込みたかったので、これを使用しています。
-
+#### eyeD3
+mp3にid3なタグをつけるアプリケーションです。 ffmpegでも出来ますがUTF-16で書き込みたかったので、これをy使用しています。
+<http://eyed3.nicfit.net/>
 How to Use
 ----------
 1. download.phpを開いて112行目にニコニコ動画のアカウントのメールアドレスとパスワード、169行目にvideoを保存するディレクトリのパスを入れます
