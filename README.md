@@ -7,11 +7,13 @@ Require
 --------
 * NicoNico Account
 
-* ffmpeg
+* _ffmpeg_
+
 apt-getとかで入れると上手くいきません。。方法はここらへんによくまとまってます。
 <https://ffmpeg.org/trac/ffmpeg/wiki/UbuntuCompilationGuide>
 
-* eyeD3
+* _eyeD3_
+
 mp3にid3なタグをつけるライブラリです。 ffmpegでも出来ますがUTF-16で書き込みたかったので、これを使用しています。
 
 How to Use
